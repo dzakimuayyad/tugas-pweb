@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+</head>
+<body>
+    <h1>Form Biodata</h1>
+    <form>
+        <label for="nama-lengkap">Nama Lengkap:</label><br>
+        <input type="text" id="nama-lengkap" name="nama-lengkap"><br><br>
+
+        <label for="tanggal-lahir">Tanggal Lahir:</label><br>
+        <input type="date" id="tanggal-lahir" name="tanggal-lahir"><br><br>
+
+        <label for="nomor-telepon">Nomor Telepon:</label><br>
+        <input type="tel" id="nomor-telepon" name="nomor-telepon"><br><br>
+
+        <label for="agama">Agama:</label><br>
+        <select id="agama" name="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="katholik">Katholik</option>
+            <option value="budha">Budha</option>
+            <option value="khonghucu">Khonghucu</option>
+            <option value="hindu">Hindu</option>
+        </select><br><br>
+
+        <label for="provinsi">Provinsi:</label><br>
+        <select id="provinsi" name="provinsi">
+            <option value="jabar">Jawa Barat</option>
+            <option value="riau">Riau</option>
+            <option value="lampung">Lampung</option>
+            <option value="kalsel">Kalimantan Selatan</option>
+            <option value="ntb">Nusa Tenggara Barat</option>
+            <option value="jatim">Jawa Timur</option>
+            <option value="yogyakarta">Yogyakarta</option>
+            <option value="jateng">Jawa Tengah</option>
+            <option value="sumsel">Sumatra Selatan</option>
+            <option value="bangbel">Bangka Belitung</option>
+            <option value="sumbar">Sumatra Barat</option>
+            <option value="pateng">Papua Tengah</option>
+            <option value="banten">Banten</option>
+            <option value="jambi">Jambi</option>
+        </select><br><br>
+
+        <label>Asal Sekolah:</label><br>
+        <input type="radio" id="sma" name="asal-sekolah" value="sma">
+        <label for="sma">SMA</label><br>
+        <input type="radio" id="smk" name="asal-sekolah" value="smk">
+        <label for="smk">SMK</label><br>
+        <input type="radio" id="man" name="asal-sekolah" value="man">
+        <label for="man">MAN</label><br><br>
+
+        <label for="hobi">Hobi:</label><br>
+        <input type="text" id="hobi" name="hobi"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
